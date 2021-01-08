@@ -1,0 +1,9 @@
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\bin\Debug\netstandard2.0\CoreAngJwtBase.Common.deps.json
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\bin\Debug\netstandard2.0\CoreAngJwtBase.Common.dll
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\obj\Debug\netstandard2.0\CoreAngJwtBase.Common.csprojAssemblyReference.cache
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\obj\Debug\netstandard2.0\CoreAngJwtBase.Common.AssemblyInfoInputs.cache
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\obj\Debug\netstandard2.0\CoreAngJwtBase.Common.AssemblyInfo.cs
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\bin\Debug\netstandard2.0\CoreAngJwtBase.Common.pdb
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\obj\Debug\netstandard2.0\CoreAngJwtBase.Common.csproj.CoreCompileInputs.cache
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\obj\Debug\netstandard2.0\CoreAngJwtBase.Common.dll
+C:\Users\dvgro\source\repos\CoreAngJwtBase\CoreAngJwtBase.Common\obj\Debug\netstandard2.0\CoreAngJwtBase.Common.pdb
