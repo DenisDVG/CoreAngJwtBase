@@ -1,1 +1,11 @@
-<p>orders works!</p>
+<mat-card>
+    <span>Order:</span>
+    <div *ngFor='let book of books'>
+        <div >
+            <span> {{book.id}}</span>
+            <span> {{book.author}}</span>
+            <span> {{book.title}}</span>
+            <span> {{book.price}}</span>
+        </div>
+    </div>
+</mat-card>

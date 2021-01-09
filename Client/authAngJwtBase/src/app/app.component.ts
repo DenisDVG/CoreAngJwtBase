@@ -12,6 +12,21 @@ export class AppComponent {
 
   }
 
+  login(email: string, password: string): void {
+    this.as.login(email, password)
+      .subscribe(res => {
+
+      }, error => {
+        alert('Wrong login');
+      }
+
+      );
+  }
+
+  logout(): void {
+    this.as.logout();
+  }
+
   public get isLoggedIn(): boolean {
     return this.as.isAuthenticated();
   }

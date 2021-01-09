@@ -3,4 +3,19 @@
   <a [routerLink]="['/orders']" routerLinkActive='active' [routerLinkActiveOptions]="{ exact: true }" *ngIf='isLoggedIn'>Orders</a>
   <router-outlet></router-outlet>
 
+  <mat-card *ngIf='!isLoggedIn'>
+    <mat-form-field class="exampleformfield">
+      <div>Email</div>
+      <input type="email" matInput placeholder="user@email" #email>
+    </mat-form-field>
+    <mat-form-field class="exampleformfield">
+      <div>Password</div>
+      <input type="password" matInput #password>
+    </mat-form-field>
+    <button mat-flat-batton color="primary" (click)='login(email.value, password.value)'>Login</button>
+  </mat-card>
+
+  <mat-card *ngIf='isLoggedIn'>
+    <button mat-flat-batton color="primary" (click)='logout()'>Logout</button>
+  </mat-card>
 </div>

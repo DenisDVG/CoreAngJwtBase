@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { BookstoreService } from 'src/app/services/bookstore.service';
+import { Book } from '../models/book';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  books: Book[] = [];
+  columns = ['id', 'author', 'title', 'price']
+
+  constructor(private bs: BookstoreService) { }
 
   ngOnInit(): void {
+    this.bs.getCatalog()
+      .subscribe(res => {
+        this.books = res;
+      });
   }
 
 }
